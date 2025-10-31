@@ -16,15 +16,16 @@ export default function Home() {
         {/* Hero */}
         <section className="mx-auto max-w-6xl px-6 py-24 sm:py-28">
           <h1 className="text-4xl sm:text-6xl font-bold tracking-tight">
-            Pharma Probiotics for Modern Health
+             Redefining Human Health
           </h1>
           <p className="mt-4 text-lg text-orange-700 dark:text-orange-300">
             probionyx.com — Innovation in probiotics
           </p>
           <p className="mt-6 max-w-2xl text-base sm:text-lg leading-relaxed text-black/80 dark:text-white/80">
-            Probionyx develops pharma-grade probiotic solutions designed to support
+            {/* Probionyx develops grade probiotic solutions designed to support
             digestive balance, immune function, and overall wellbeing. Trusted by
-            healthcare professionals and built on rigorous science.
+            healthcare professionals and built on rigorous science. */}
+            Probionyx develops nutraceutical supplements designed to support digestive balance, immune function, joint health, and overall wellbeing.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
             <a
