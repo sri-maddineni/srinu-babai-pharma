@@ -6,7 +6,7 @@ export default function Home() {
           <div className="text-2xl sm:text-3xl font-semibold tracking-tight text-orange-600 dark:text-orange-400">Probionyx</div>
           <nav className="hidden sm:flex items-center gap-6 text-sm">
             <a href="#about" className="hover:underline underline-offset-4 text-black/80 dark:text-white/80">About</a>
-            <a href="#benefits" className="hover:underline underline-offset-4 text-black/80 dark:text-white/80">Benefits</a>
+            {/* <a href="#benefits" className="hover:underline underline-offset-4 text-black/80 dark:text-white/80">Benefits</a> */}
             <a href="#contact" className="hover:underline underline-offset-4 text-black/80 dark:text-white/80">Contact</a>
           </nav>
         </div>
@@ -16,16 +16,18 @@ export default function Home() {
         {/* Hero */}
         <section className="mx-auto max-w-6xl px-6 py-24 sm:py-28">
           <h1 className="text-4xl sm:text-6xl font-bold tracking-tight">
-             Redefining Human Health
+             Bridging Nature and Science  for Better Health
           </h1>
           <p className="mt-4 text-lg text-orange-700 dark:text-orange-300">
             probionyx.com — Innovation in probiotics
           </p>
           <p className="mt-6 max-w-2xl text-base sm:text-lg leading-relaxed text-black/80 dark:text-white/80">
+            At Probionyx, we specialize in scientifically developed nutraceutical formulations that target digestive health, immune resilience, joint mobility, and holistic wellness.
+            
             {/* Probionyx develops grade probiotic solutions designed to support
             digestive balance, immune function, and overall wellbeing. Trusted by
             healthcare professionals and built on rigorous science. */}
-            Probionyx develops nutraceutical supplements designed to support digestive balance, immune function, joint health, and overall wellbeing.
+            {/* Probionyx develops nutraceutical supplements designed to support digestive balance, immune function, joint health, and overall wellbeing. */}
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
             <a
@@ -44,7 +46,7 @@ export default function Home() {
         </section>
 
         {/* Benefits */}
-        <section id="benefits" className="bg-gradient-to-b from-white to-cyan-50 dark:from-black dark:to-cyan-950 border-y border-cyan-100 dark:border-cyan-900/50">
+        {/* <section id="benefits" className="bg-gradient-to-b from-white to-cyan-50 dark:from-black dark:to-cyan-950 border-y border-cyan-100 dark:border-cyan-900/50">
           <div className="mx-auto max-w-6xl px-6 py-16 grid sm:grid-cols-3 gap-8">
             <div>
               <h3 className="text-lg font-semibold text-orange-700 dark:text-orange-300">Clinically Oriented</h3>
@@ -66,15 +68,13 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* About */}
         <section id="about" className="mx-auto max-w-6xl px-6 py-16">
           <h2 className="text-2xl font-semibold tracking-tight">About Probionyx</h2>
           <p className="mt-4 max-w-3xl text-sm sm:text-base leading-7 text-black/80 dark:text-white/80">
-            We focus on innovation in probiotics to bridge clinical research and
-            patient outcomes. Our development approach emphasizes safety, strain
-            identity, and functional efficacy.
+           Our mission is to close the gap between nutrition and medicine by offering evidence-based nutraceuticals that promote better health outcomes.
           </p>
         </section>
 
