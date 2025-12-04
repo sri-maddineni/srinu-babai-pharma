@@ -15,15 +15,28 @@ export default function Home() {
       <main className="flex-1">
         {/* Hero */}
         <section className="mx-auto max-w-6xl px-6 py-24 sm:py-28">
-          <h1 className="text-4xl sm:text-6xl font-bold tracking-tight">
-             Bridging Nature and Science  for Better Health
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
+            Bridging Nature and Science  for Better Health
           </h1>
-          <p className="mt-4 text-lg text-orange-700 dark:text-orange-300">
-            probionyx.com — Innovation in probiotics
+          <p className="mt-4 text-4xl text-orange-700 dark:text-orange-300">
+            Probionyx — Innovation
+            <span
+              className="mx-3 text-5xl font-bold bg-gradient-to-b from-[#ff252f] via-white to-[#0f8f00] bg-clip-text text-transparent"
+              style={{
+                WebkitTextFillColor: "transparent",
+                WebkitBackgroundClip: "text"
+              }}
+            >
+              IN
+            </span>
+            Nutrition
           </p>
+
+          
+
           <p className="mt-6 max-w-2xl text-base sm:text-lg leading-relaxed text-black/80 dark:text-white/80">
             At Probionyx, we specialize in scientifically developed nutraceutical formulations that target digestive health, immune resilience, joint mobility, and holistic wellness.
-            
+
             {/* Probionyx develops grade probiotic solutions designed to support
             digestive balance, immune function, and overall wellbeing. Trusted by
             healthcare professionals and built on rigorous science. */}
@@ -74,7 +87,7 @@ export default function Home() {
         <section id="about" className="mx-auto max-w-6xl px-6 py-16">
           <h2 className="text-2xl font-semibold tracking-tight">About Probionyx</h2>
           <p className="mt-4 max-w-3xl text-sm sm:text-base leading-7 text-black/80 dark:text-white/80">
-           Our mission is to close the gap between nutrition and medicine by offering evidence-based nutraceuticals that promote better health outcomes.
+            Our mission is to close the gap between nutrition and medicine by offering evidence-based nutraceuticals that promote better health outcomes.
           </p>
         </section>
 
@@ -98,7 +111,7 @@ export default function Home() {
       <footer className="border-t border-black/[.08] dark:border-white/[.145]">
         <div className="mx-auto max-w-6xl px-6 py-6 text-sm flex flex-col sm:flex-row items-center justify-between gap-3">
           <span className="text-black/60 dark:text-white/60">© {new Date().getFullYear()} Probionyx</span>
-          <span className="text-black/60 dark:text-white/60">Innovation in probiotics</span>
+          <span className="text-black/60 dark:text-white/60">Innovation IN Nutrition</span>
         </div>
       </footer>
     </div>
