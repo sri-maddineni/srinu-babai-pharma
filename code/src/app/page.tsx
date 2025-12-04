@@ -3,7 +3,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <header className="w-full border-b border-black/[.08] dark:border-white/[.145] bg-white/60 dark:bg-black/40 backdrop-blur">
         <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
-          <div className="text-2xl sm:text-3xl font-semibold tracking-tight text-orange-600 dark:text-orange-400">Probionyx</div>
+          <div className="text-4xl sm:text-4xl font-semibold tracking-tight text-orange-600 dark:text-orange-400">Probionyx</div>
           <nav className="hidden sm:flex items-center gap-6 text-sm">
             <a href="#about" className="hover:underline underline-offset-4 text-black/80 dark:text-white/80">About</a>
             {/* <a href="#benefits" className="hover:underline underline-offset-4 text-black/80 dark:text-white/80">Benefits</a> */}
@@ -15,13 +15,11 @@ export default function Home() {
       <main className="flex-1">
         {/* Hero */}
         <section className="mx-auto max-w-6xl px-6 py-24 sm:py-28">
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
-            Bridging Nature and Science  for Better Health
-          </h1>
-          <p className="mt-4 text-4xl text-orange-700 dark:text-orange-300">
-            Probionyx — Innovation
+          
+          <p className="mt-4 text-4xl sm:text-5xl text-orange-700 dark:text-orange-300">
+            Innovation
             <span
-              className="mx-3 text-5xl font-bold bg-gradient-to-b from-[#ff252f] via-white to-[#0f8f00] bg-clip-text text-transparent"
+              className="mx-3 font-bold bg-gradient-to-b from-[#ff252f] via-white to-[#0f8f00] bg-clip-text text-transparent"
               style={{
                 WebkitTextFillColor: "transparent",
                 WebkitBackgroundClip: "text"
@@ -31,6 +29,10 @@ export default function Home() {
             </span>
             Nutrition
           </p>
+
+          <h1 className="text-2xl sm:text-3xl my-6 font-bold tracking-tight">
+            Bridging Nature and Science  for Better Health
+          </h1>
 
           
 
